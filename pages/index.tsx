@@ -37,8 +37,8 @@ const Home: NextPage = () => {
             />
           </Container>
           <VStack
-            px={{ base: 5, md: 6 }}
-            py={{ base: 5, md: 10 }}
+            px={{ base: 5 }}
+            py={{ base: 5, md: 8 }}
             spacing={7}
             w={{ base: "unset", md: "95%" }}
           >
