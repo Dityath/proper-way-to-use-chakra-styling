@@ -20,7 +20,7 @@ const Home: NextPage = () => {
       <Center as={"main"} bg={"primary.cream"} w={"full"} h={"100vh"} px={"5"}>
         <Box
           w={"full"}
-          maxW={"xl"}
+          maxW={"2xl"}
           bg={"white"}
           display={"flex"}
           h={{ base: "auto", md: "96" }}
@@ -37,10 +37,11 @@ const Home: NextPage = () => {
             />
           </Container>
           <VStack
-            px={{ base: 5 }}
+            px={{ base: 5, md: 7 }}
             py={{ base: 5, md: 8 }}
             spacing={7}
             w={{ base: "unset", md: "95%" }}
+            justifyContent={{ base: "center", md: "space-between" }}
           >
             <VStack spacing={3} alignItems={"flex-start"}>
               <Text
