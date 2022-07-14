@@ -37,10 +37,10 @@ const Home: NextPage = () => {
             />
           </Container>
           <VStack
-            px={{ base: 5, md: 7 }}
+            px={{ base: 5, md: 6 }}
             py={{ base: 5, md: 10 }}
             spacing={7}
-            w={{ base: "unset", md: "90%" }}
+            w={{ base: "unset", md: "95%" }}
           >
             <VStack spacing={3} alignItems={"flex-start"}>
               <Text
